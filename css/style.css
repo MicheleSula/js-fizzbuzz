@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(78, 206, 144);
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
 h1 {
     text-align: center;
+    font-size: 30px;
+    color: white;
 }
 
 #container {
@@ -14,29 +25,34 @@ h1 {
     text-align: center;
 }
 
-#container .myCSS {
-    background-color: blue;
+#container div {
     width: calc(10% - 10px);
     height: 50px;
     margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#container .myCSS {
+    background-color: rgb(15, 177, 202);
+    
 
 }
 
 #container .fizz {
-    background-color: rgb(220, 216, 23);
-    width: calc(10% - 10px);
-    height: 50px;
-    margin: 10px 10px;
+    background-color: rgb(213, 99, 6);
+    
 }
 #container .buzz {
     background-color: rgb(255, 0, 0);
-    width: calc(10% - 10px);
-    height: 50px;
-    margin: 10px 10px;
+
 }
 #container .fizz-buzz {
-    background-color: rgb(255, 0, 234);
-    width: calc(10% - 10px);
-    height: 50px;
-    margin: 10px 10px;
+    background-color: rgb(255, 0, 166);
+    
 }
+

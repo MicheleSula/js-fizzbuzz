@@ -1,5 +1,7 @@
+// Variabile
 const container = document.getElementById("container");
 
+// Ciclo for
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         const fizzBuzz = `<div class="fizz-buzz">Fizz-Buzz</div>`;
